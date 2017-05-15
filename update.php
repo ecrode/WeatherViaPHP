@@ -10,6 +10,7 @@
 
 	// Data needed from PWS weather
 	$pwsID = "FexampleER"; // change contents, keep quotes
+	// $pwsID = filter_var("FexampleER", FILTER_SANITIZE_STRING); // Example of sanitized variable, worth trying if you run into errors
 	$psw = "1ExAmPlE."; // seems to dislike commas, try simplier password in case you get ID/pass error (periods "." are ok)
 // 	End of hardcoded variables
 
