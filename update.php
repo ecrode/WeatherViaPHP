@@ -47,7 +47,7 @@
 					($data['current_observation']['wind_degrees'] >= 0 ? "&winddir=" . $data['current_observation']['wind_degrees'] : '' ) . 
 					($data['current_observation']['wind_mph'] >= 0 ? "&windspeedmph=" . $data['current_observation']['wind_mph'] : '' ) . 
 					($data['current_observation']['wind_gust_mph'] >= 0 ? "&windgustmph=". $data['current_observation']['wind_gust_mph'] : "" ) .  
-					($data['current_observation']['temp_f'] > -1000 ? "&tempf=" . $data['current_observation']['temp_f'] : "" ) . 
+					($data['current_observation']['temp_f'] > -459 ? "&tempf=" . $data['current_observation']['temp_f'] : "" ) . 
 					($data['current_observation']['precip_1hr_in'] >= 0 ? "&rainin=" . $data['current_observation']['precip_1hr_in']  : "" ) . 
 					($data['current_observation']['precip_today_in'] >= 0 ? "&dailyrainin=" . $data['current_observation']['precip_today_in'] : "" ) . 
 					($data['current_observation']['pressure_in'] >= 0 ? "&baromin=" . $data['current_observation']['pressure_in']  : "" ) . 
